@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2.6rem 4.5rem;
+}
+
+.footer a {
+    font-size: 1.3rem;
+
+    color: $secundary-color;
+
+    &:not(:last-child) {
+        margin-right: 3.7rem;
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

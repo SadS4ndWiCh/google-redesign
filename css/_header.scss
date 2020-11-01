@@ -1,0 +1,37 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 1.7rem 2.5rem;
+}
+
+.menu .menu__applications {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.menu__applications a {
+    height: 2.3rem;
+}
+
+.menu__avatar img {
+    height: 3.7rem;
+}
+
+.menu__applications .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
+
+.menu__applications .menu__applications--more {
+    height: 1.7rem;
+}
